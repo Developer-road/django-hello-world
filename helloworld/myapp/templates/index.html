@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h1>Hello world, this is my first template</h1>
+
+<p>This is a cool html paragraph!</p>
+
+
+{% for person in people %}
+
+    <p>{{person}}</p>
+{% endfor %}
+
+
+{% endblock body %}
